@@ -1,0 +1,189 @@
+Enter a command (type help for details):
+help
+Possible commands are as follows:
+create location [fast][flexible]: Creates a new piece.
+move location direction [spaces]: Moves a piece.
+print: Displays the board.
+help: Displays help.
+exit: Exits the program.
+
+Enter a command (type help for details):
+print
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+
+Enter a command (type help for details):
+create 3 3 fast flexible
+Input a name for the new piece:
+Jedi
+Input a colour for the new piece:
+Red
+
+Enter a command (type help for details):
+print
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           JediRedFF   -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+
+Enter a command (type help for details):
+move 7 7
+Error: no piece at (7,7)
+
+Enter a command (type help for details):
+create 5 5 fast
+Input a name for the new piece:
+Clone
+Input a colour for the new piece:
+Red
+
+Enter a command (type help for details):
+print
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           JediRedFF   -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           CloneRedF   -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+
+Enter a command (type help for details):
+move 3 3 up 2
+Piece at (3,3) moved up by 2 spaces
+
+Enter a command (type help for details):
+print
+-           -           -           -           -           -           -           -           
+-           -           -           JediRedFF   -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           CloneRedF   -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+
+Enter a command (type help for details):
+move 5 5 left 4
+Piece at (5,5) moved left by 4 spaces
+
+Enter a command (type help for details):
+print
+-           -           -           -           -           -           -           -           
+-           -           -           JediRedFF   -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           CloneRedF   -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+
+Enter a command (type help for details):
+move 3 1 down
+Piece at (3,1) moved down by 1 space
+
+Enter a command (type help for details):
+print
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           JediRedFF   -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           CloneRedF   -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+
+Enter a command (type help for details):
+move 1 5 right
+Piece at (1,5) moved right by 1 space
+
+Enter a command (type help for details):
+print
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           JediRedFF   -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           CloneRedF   -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+         
+Enter a command (type help for details):
+create 3 0
+Input a name for the new piece:
+Jedi
+Input a colour for the new piece:
+Blue
+
+Enter a command (type help for details):
+print
+-           -           -           JediBlueS   -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           JediRedFF   -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           CloneRedF   -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+
+Enter a command (type help for details):
+create 4 3 flexible
+Input a name for the new piece:
+Clone
+Input a colour for the new piece:
+Blue
+
+Enter a command (type help for details):
+print
+-           -           -           JediBlueS   -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           JediRedFF   -           -           -           -           
+-           -           -           -           CloneBlueSF -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           CloneRedF   -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+
+Enter a command (type help for details):
+move 3 0 left
+Piece at (3,0) moved left by 1 space
+
+Enter a command (type help for details):
+print
+-           -           JediBlueS   -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           JediRedFF   -           -           -           -           
+-           -           -           -           CloneBlueSF -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           CloneRedF   -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+
+Enter a command (type help for details):
+move 4 3 up
+Piece at (4,3) moved up by 1 space
+
+Enter a command (type help for details):
+print
+-           -           JediBlueS   -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           JediRedFF   CloneBlueSF -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           CloneRedF   -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+-           -           -           -           -           -           -           -           
+
+Enter a command (type help for details):
+exit
+Done.
